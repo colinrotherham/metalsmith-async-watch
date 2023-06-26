@@ -1,0 +1,14 @@
+{
+  "name": "@colinrotherham/metalsmith-async-watch",
+  "version": "1.0.0",
+  "description": "Example repo showing Metalsmith watch issue",
+  "main": "index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node index.mjs",
+    "build": "NODE_ENV=production node index.mjs"
+  },
+  "devDependencies": {
+    "metalsmith": "^2.6.0"
+  }
+}
